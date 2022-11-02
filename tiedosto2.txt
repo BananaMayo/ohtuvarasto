@@ -1,2 +1,0 @@
-3. tehtävän muokkaus
-Muokikauksia git add -p varten
