@@ -1,2 +1,2 @@
 3. tehtävän muokkaus
-
+Lisää muokkausta git add -p varten
