@@ -10,6 +10,10 @@ class TestVarasto(unittest.TestCase):
         # https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertAlmostEqual
         self.assertAlmostEqual(self.varasto.saldo, 0)
 
+    def test_tyhja_varasto(self):
+        if self.varasto.tilavuus <= 0.0:
+            self.assertAlmostEqual(self.varasto.tilavuus, 0.0)
+
     def test_uudella_varastolla_oikea_tilavuus(self):
         self.assertAlmostEqual(self.varasto.tilavuus, 10)
 
